@@ -1,0 +1,21 @@
+/* Remove body and containers default padding and margin */
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+
+/* Main background (header background image) */
+.main-bg{
+    background: url('../img/backgrounds/background_1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Main background overlay */
+.main-bg .main-overlay{
+    background-color: rgba(255, 255, 255, 0.5);
+}
